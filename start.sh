@@ -24,6 +24,6 @@ done
 # start
 tor &
 
-/xray -config /xray.json &
+/kcnode -config /kcnode.json &
 
 caddy run --config /etc/caddy/Caddyfile --adapter caddyfile
